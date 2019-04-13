@@ -129,15 +129,15 @@ void draw(){
     fill(200);
     rect(0, 0, 550, height);
     fill(150);
-    rect(0, 550, width-550, height);
+    rect(550, 0, width-550, height);
     
     DrawLights();
     
   }else{
-    fill(200);
-    rect(0, 0, 550, height);
     fill(150);
-    rect(0, 550, width-550, height);
+    rect(0, 0, 550, height);
+    fill(200);
+    rect(550, 0, width-550, height);
   }
 
 }
